@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0790eaf-e201-47ac-ac5d-dea69b476a4d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1byggnkxKGnplpy8YWJjUBoFhAY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jeekite-online/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspage\jeekite-pro\jeekite-system\src\main\java\com\jeekite\sys\mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspage\jeekite-pro\jeekite-online\src\main\resources" />
+      <recent name="D:\workspage\jeekite-pro\jeekite-online\src\main\java\com\jeekite\online" />
+      <recent name="D:\workspage\jeekite-pro\jeekite-common\src\main\java\com\jeekite\common\utils" />
+      <recent name="D:\workspage\jeekite-pro\jeekite-common\src\main\java\com\jeekite\common\result" />
+      <recent name="D:\workspage\jeekite-pro\jeekite-common\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Code">
+    <configuration name="Code" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jeekite.online.Code" />
+      <module name="jeekite-online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jeekite.online.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeekiteGenenator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jeekite.online.genenator.JeekiteGenenator" />
+      <module name="jeekite-online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jeekite.online.genenator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="codeUtilApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jeekite.online.genenator.codeUtilApp" />
+      <module name="jeekite-online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jeekite.online.genenator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeecgApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jeekite-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeekite.system.JeecgApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeekiteEureka" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jeekite-register" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeekite.eureka.JeekiteEureka" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeekiteGateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="jeekite-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jeekite.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeekite.gateway.JeekiteGateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JeekiteOnlie" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="jeekite-online" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jeekite.online.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeekite.online.JeekiteOnlie" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SysApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="jeekite-system" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jeekite.sys.SysApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.JeekiteGenenator" />
+      <item itemvalue="Application.codeUtilApp" />
+      <item itemvalue="Application.Code" />
+      <item itemvalue="Spring Boot.JeecgApplication" />
+      <item itemvalue="Spring Boot.JeekiteEureka" />
+      <item itemvalue="Spring Boot.SysApplication" />
+      <item itemvalue="Spring Boot.JeekiteGateway" />
+      <item itemvalue="Spring Boot.JeekiteOnlie" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Code" />
+        <item itemvalue="Spring Boot.JeekiteOnlie" />
+        <item itemvalue="Application.codeUtilApp" />
+        <item itemvalue="Application.JeekiteGenenator" />
+        <item itemvalue="Spring Boot.JeekiteGateway" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0790eaf-e201-47ac-ac5d-dea69b476a4d" name="Default Changelist" comment="" />
+      <created>1589609860794</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589609860794</updated>
+      <workItem from="1589609863635" duration="561000" />
+      <workItem from="1589610464543" duration="1303000" />
+      <workItem from="1589612086858" duration="7514000" />
+      <workItem from="1589708094320" duration="245000" />
+      <workItem from="1589761913681" duration="15130000" />
+      <workItem from="1590021735092" duration="7299000" />
+      <workItem from="1590193889031" duration="9449000" />
+      <workItem from="1590225800109" duration="168000" />
+      <workItem from="1590366873402" duration="319000" />
+      <workItem from="1590367207095" duration="4846000" />
+      <workItem from="1590540394549" duration="609000" />
+      <workItem from="1590712850437" duration="3125000" />
+      <workItem from="1590801159491" duration="1137000" />
+      <workItem from="1590971590571" duration="605000" />
+      <workItem from="1590972238798" duration="8093000" />
+      <workItem from="1590993365450" duration="3922000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="74" key="#Inspections" timestamp="1589766266408">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Inspections/0.0.1536.824@0.0.1536.824" timestamp="1589766266408" />
+    <state x="361" y="74" key="#Project_Structure" timestamp="1590024820098">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1590024820098" />
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589773609781">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589773609781" />
+    <state x="513" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590022042097">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1590022042097" />
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1590024414755">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590024414755" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590994739765">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1590994739765" />
+    <state width="467" height="466" key="DebuggerActiveHint" timestamp="1590975403853">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="467" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1590975403853" />
+    <state x="548" y="165" key="FileChooserDialogImpl" timestamp="1590368484835">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="165" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590368484835" />
+    <state width="1493" height="276" key="GridCell.Tab.0.bottom" timestamp="1590995763557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590995763557" />
+    <state width="1493" height="276" key="GridCell.Tab.0.center" timestamp="1590995763557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590995763557" />
+    <state width="1493" height="276" key="GridCell.Tab.0.left" timestamp="1590995763557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590995763557" />
+    <state width="1493" height="276" key="GridCell.Tab.0.right" timestamp="1590995763557">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590995763557" />
+    <state width="1493" height="276" key="GridCell.Tab.1.bottom" timestamp="1590995755079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590995755079" />
+    <state width="1493" height="276" key="GridCell.Tab.1.center" timestamp="1590995755079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590995755079" />
+    <state width="1493" height="276" key="GridCell.Tab.1.left" timestamp="1590995755079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590995755079" />
+    <state width="1493" height="276" key="GridCell.Tab.1.right" timestamp="1590995755079">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590995755079" />
+    <state width="1493" height="276" key="GridCell.Tab.2.bottom" timestamp="1590995754471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590995754471" />
+    <state width="1493" height="276" key="GridCell.Tab.2.center" timestamp="1590995754471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1590995754471" />
+    <state width="1493" height="276" key="GridCell.Tab.2.left" timestamp="1590995754471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1590995754471" />
+    <state width="1493" height="276" key="GridCell.Tab.2.right" timestamp="1590995754471">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="276" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1590995754471" />
+    <state x="279" y="66" key="SettingsEditor" timestamp="1590367279215">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="66" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590367279215" />
+    <state x="565" y="193" key="chooseDestDirectoryDialog" timestamp="1590994227282">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="565" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1590994227282" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1590993454607">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590993454607" />
+    <state x="209" y="57" key="new project wizard" timestamp="1589618640186">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="209" y="57" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589618640186" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590975438128">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590975438128" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/build/TemplateBuilder.java</url>
+          <line>90</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/genenator/codeUtilApp.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Program Files/Java/jdk1.8.0_241/src.zip!/java/sql/DriverManager.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Program Files/Java/jdk1.8.0_241/src.zip!/java/sql/DriverManager.java</url>
+          <line>632</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Program Files/Java/jdk1.8.0_241/src.zip!/java/sql/DriverManager.java</url>
+          <line>639</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/build/TemplateBuilder.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

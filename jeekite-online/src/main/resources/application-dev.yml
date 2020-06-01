@@ -1,0 +1,45 @@
+server:
+  port: 8083
+spring:
+  devtools:
+    restart:
+      enabled: true
+  application:
+    name: jeekite-online-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/jeekite
+    username: root
+    password: root
+    hikari:
+      max-lifetime: 28830000 # 一个连接的生命时长（毫秒），超时而且没被使用则被释放（retired），缺省:30分钟，建议设置比数据库超时时长少30秒，参考MySQL wait_timeout参数（show variables like '%timeout%';）
+      maximum-pool-size: 9 # 连接池中允许的最大连接数。缺省值：10；推荐的公式：((core_count * 2) + effective_spindle_count)
+pojoPackage: com.jeekite.online.pojo
+#Dao\u5305\u8DEF\u5F84
+mapperPackage: com.jeekite.online.dao
+#service\u63A5\u53E3\u5305\u8DEF\u5F84
+serviceInterfacePackage: com.jeekite.online.service
+#service\u63A5\u53E3\u5B9E\u73B0\u7C7B\u5305\u8DEF\u5F84
+serviceInterfaceImplPackage: com.jeekite.online.service.impl
+#controller\u5305\u8DEF\u5F84
+controllerPackage: com.jeekite.online.controller
+#feign\u5305\u8DEF\u5F84
+feignPackage: com.jeekite.online.feign
+#\u662F\u5426\u542F\u7528swagger(\u76EE\u524D\u53EA\u505A\u4E86Pojo\u751F\u6210)
+enableSwagger: true
+#swagger-ui\u7684\u8DEF\u5F84
+swaggeruipath: com.jeekite.online.swagger
+#\u670D\u52A1\u540D\u5B57
+serviceName: user
+
+#\u6570\u636E\u6E90\u914D\u7F6E
+url: jdbc:mysql://localhost:3306/jeekite
+uname: root
+pwd: root
+driver: com.mysql.jdbc.Driver
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+  instance:
+    lease-renewal-interval-in-seconds: 5 # 5秒钟发送一次心跳
+    lease-expiration-duration-in-seconds: 10 # 10秒不发送就过期

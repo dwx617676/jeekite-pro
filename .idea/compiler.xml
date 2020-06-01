@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jeekite-register" />
+        <module name="jeekite-system" />
+        <module name="jeekite-online" />
+        <module name="jeekite-gateway" />
+        <module name="jeekite-common" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="geekite-system" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="geekite-system" options="-parameters" />
+      <module name="jeekite-common" options="-parameters" />
+      <module name="jeekite-gateway" options="-parameters" />
+      <module name="jeekite-online" options="-parameters" />
+      <module name="jeekite-register" options="-parameters" />
+      <module name="jeekite-system" options="-parameters" />
+    </option>
+  </component>
+</project>
