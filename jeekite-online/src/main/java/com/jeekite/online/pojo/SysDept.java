@@ -7,9 +7,9 @@ import java.util.Date;
 import java.lang.String;
 import java.lang.Integer;
 /****
- * @Author:shenkunlin
+ * @Author:dudianlong
  * @Description:SysDept构建
- * @Date 2019/6/14 19:13
+ * @Date 2020/5/14 19:13
  *****/
 @ApiModel(description = "SysDept",value = "SysDept")
 @Table(name="sys_dept")

@@ -75,17 +75,73 @@ public class SysUserServiceImpl implements SysUserService {
         Example example=new Example(SysUser.class);
         Example.Criteria criteria = example.createCriteria();
         if(sysUser!=null){
-            // 主键ID
+            // 用户id
             if(!StringUtils.isEmpty(sysUser.getId())){
                     criteria.andEqualTo("id",sysUser.getId());
             }
-            // 用户名
+            // 账户名称
             if(!StringUtils.isEmpty(sysUser.getUsername())){
                     criteria.andLike("username","%"+sysUser.getUsername()+"%");
             }
-            // 用户密码
+            // 加密盐值
+            if(!StringUtils.isEmpty(sysUser.getSalt())){
+                    criteria.andEqualTo("salt",sysUser.getSalt());
+            }
+            // 用户密码密文
             if(!StringUtils.isEmpty(sysUser.getPassword())){
                     criteria.andEqualTo("password",sysUser.getPassword());
+            }
+            // 手机号码
+            if(!StringUtils.isEmpty(sysUser.getPhone())){
+                    criteria.andEqualTo("phone",sysUser.getPhone());
+            }
+            // 部门id
+            if(!StringUtils.isEmpty(sysUser.getDeptId())){
+                    criteria.andEqualTo("deptId",sysUser.getDeptId());
+            }
+            // 真实名称
+            if(!StringUtils.isEmpty(sysUser.getRealName())){
+                    criteria.andEqualTo("realName",sysUser.getRealName());
+            }
+            // 昵称
+            if(!StringUtils.isEmpty(sysUser.getNickName())){
+                    criteria.andEqualTo("nickName",sysUser.getNickName());
+            }
+            // 邮箱(唯一)
+            if(!StringUtils.isEmpty(sysUser.getEmail())){
+                    criteria.andEqualTo("email",sysUser.getEmail());
+            }
+            // 账户状态(1.正常 2.锁定 )
+            if(!StringUtils.isEmpty(sysUser.getStatus())){
+                    criteria.andEqualTo("status",sysUser.getStatus());
+            }
+            // 性别(1.男 2.女)
+            if(!StringUtils.isEmpty(sysUser.getSex())){
+                    criteria.andEqualTo("sex",sysUser.getSex());
+            }
+            // 是否删除(1未删除；0已删除)
+            if(!StringUtils.isEmpty(sysUser.getDeleted())){
+                    criteria.andEqualTo("deleted",sysUser.getDeleted());
+            }
+            // 创建人
+            if(!StringUtils.isEmpty(sysUser.getCreateId())){
+                    criteria.andEqualTo("createId",sysUser.getCreateId());
+            }
+            // 更新人
+            if(!StringUtils.isEmpty(sysUser.getUpdateId())){
+                    criteria.andEqualTo("updateId",sysUser.getUpdateId());
+            }
+            // 创建来源(1.web 2.android 3.ios )
+            if(!StringUtils.isEmpty(sysUser.getCreateWhere())){
+                    criteria.andEqualTo("createWhere",sysUser.getCreateWhere());
+            }
+            // 创建时间
+            if(!StringUtils.isEmpty(sysUser.getCreateTime())){
+                    criteria.andEqualTo("createTime",sysUser.getCreateTime());
+            }
+            // 
+            if(!StringUtils.isEmpty(sysUser.getUpdateTime())){
+                    criteria.andEqualTo("updateTime",sysUser.getUpdateTime());
             }
         }
         return example;

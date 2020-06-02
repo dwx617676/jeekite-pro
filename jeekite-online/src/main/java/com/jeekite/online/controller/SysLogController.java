@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /****
- * @Author:shenkunlin
+ * @Author:dudianlong
  * @Description:
- * @Date 2019/6/14 0:18
+ * @Date 2020/5/14 0:18
  *****/
 @Api(value = "SysLogController")
 @RestController

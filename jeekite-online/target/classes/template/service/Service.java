@@ -3,9 +3,9 @@ import ${package_pojo}.${Table};
 import com.github.pagehelper.PageInfo;
 import java.util.List;
 /****
- * @Author:shenkunlin
+ * @Author:dudianlong
  * @Description:${Table}业务层接口
- * @Date 2019/6/14 0:16
+ * @Date 2020/5/14 0:16
  *****/
 public interface ${Table}Service {
 

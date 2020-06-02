@@ -84,23 +84,24 @@ public class TemplateBuilder {
     /***
      * 模板构建
      */
-    public static void builder(){
+    public static void builder(String tables){
         try {
             //获取数据库连接
-            Connection conn = DriverManager.getConnection(props.getProperty("url"),props.getProperty("uname"),props.getProperty("pwd"));
-            DatabaseMetaData metaData = conn.getMetaData();
 
+            Connection conn = getConn();
+            DatabaseMetaData metaData = conn.getMetaData();
             //获取数据库类型：MySQL
             String databaseType = metaData.getDatabaseProductName();
 
             //针对MySQL数据库进行相关生成操作
             if(databaseType.equals("MySQL")){
-                //获取所有表结构
-                ResultSet tableResultSet = metaData.getTables(null, "%", "%", new String[]{"TABLE"});
-
                 //获取数据库名字
                 String database = conn.getCatalog();
 
+                //获取表结构
+                ResultSet tableResultSet = metaData.getTables(null, database, tables, new String[]{"TABLE"});
+                //生成数据库中的所有表结构
+              //  ResultSet tableResultSet = metaData.getTables(null, "%", "%", new String[]{"TABLE"});
                 //Swagger信息集合
                 List<SwaggerModel> swaggerModels = new ArrayList<SwaggerModel>();       //Model
                 List<SwaggerPath> swaggerPathList = new ArrayList<SwaggerPath>();    //Method
@@ -108,6 +109,7 @@ public class TemplateBuilder {
                 //循环所有表信息
                 while (tableResultSet.next()){
                     //获取表名
+                 //   String tableName=tableResultSet.getString("TABLE_NAME");
                     String tableName=tableResultSet.getString("TABLE_NAME");
                     //名字操作,去掉tab_,tb_，去掉_并转驼峰
                     String table = StringUtils.replace_(StringUtils.replaceTab(tableName));
@@ -217,6 +219,16 @@ public class TemplateBuilder {
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+    //获取连接
+    public static Connection getConn(){
+        Connection conn=null;
+        try {
+             conn = DriverManager.getConnection(props.getProperty("url"),props.getProperty("uname"),props.getProperty("pwd"));
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+      return conn;
     }
 
     /***

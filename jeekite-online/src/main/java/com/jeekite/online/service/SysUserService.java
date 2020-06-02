@@ -3,9 +3,9 @@ import com.jeekite.online.pojo.SysUser;
 import com.github.pagehelper.PageInfo;
 import java.util.List;
 /****
- * @Author:shenkunlin
+ * @Author:dudianlong
  * @Description:SysUser业务层接口
- * @Date 2019/6/14 0:16
+ * @Date 2020/5/14 0:16
  *****/
 public interface SysUserService {
 

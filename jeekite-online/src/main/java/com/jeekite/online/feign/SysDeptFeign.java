@@ -9,9 +9,9 @@ import java.util.List;
 
 
 /****
- * @Author:shenkunlin
+ * @Author:dudianlong
  * @Description:
- * @Date 2019/6/18 13:58
+ * @Date 2020/5/14 0:18
  *****/
 @FeignClient(name="user")
 @RequestMapping("/sysDept")

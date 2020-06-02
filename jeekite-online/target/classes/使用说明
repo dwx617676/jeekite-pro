@@ -1,4 +1,4 @@
-application.properties中配置
+application-dev.yml
 1.数据源
 2.修改dao、service、serviceimpl、model、controller包路径
 3.默认开启了swagger，可以关闭

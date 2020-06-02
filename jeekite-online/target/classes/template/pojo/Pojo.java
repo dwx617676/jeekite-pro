@@ -9,9 +9,9 @@ import java.io.Serializable;
 import ${set};
 </#list>
 /****
- * @Author:shenkunlin
+ * @Author:dudianlong
  * @Description:${Table}构建
- * @Date 2019/6/14 19:13
+ * @Date 2020/5/14 19:13
  *****/
 <#if swagger==true>
 @ApiModel(description = "${Table}",value = "${Table}")
