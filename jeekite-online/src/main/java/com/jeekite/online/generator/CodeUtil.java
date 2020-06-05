@@ -1,12 +1,8 @@
 package com.jeekite.online.generator;
 
-import com.github.pagehelper.PageInfo;
 import com.jeekite.common.result.Result;
 import com.jeekite.common.result.StatusCode;
 import com.jeekite.online.build.TemplateBuilder;
-import com.jeekite.online.pojo.SysUser;
-import com.jeekite.online.util.StringUtils;
-import com.jeekite.online.util.TableInfo;
 import io.swagger.annotations.*;
 import org.springframework.web.bind.annotation.*;
 

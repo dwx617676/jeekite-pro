@@ -1,5 +1,5 @@
 server:
-  port: 10010
+  port: 5000
 spring:
   application:
     name: jeekite-gateway
@@ -9,6 +9,15 @@ eureka:
     service-url:
       defaultZone: http://127.0.0.1:10086/eureka
 zuul:
-  prefix: /api # 路由路径前缀
+  host:
+    connect-timeout-millis: 15000 #HTTP连接超时要比Hystrix的大
+    socket-timeout-millis: 60000   #socket超时
   routes:
-    jeekite-service: /sys/** # 商品微服务的映射路径
+    jeekite-sys:
+      path: /sys/**
+      serviceId: jeekite-sys
+  prefix: /api/jeekite
+
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000

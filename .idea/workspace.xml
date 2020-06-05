@@ -1,7 +1,150 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0790eaf-e201-47ac-ac5d-dea69b476a4d" name="Default Changelist" comment="" />
+    <list default="true" id="c0790eaf-e201-47ac-ac5d-dea69b476a4d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/constant/CommonConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/constant/DataBaseConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/exception/JeekiteBootException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/result/ComboModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/result/DictModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/result/DynamicDataSourceModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/result/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/result/SysCategoryModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/result/SysDepartModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/result/SysLoginModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/result/SysUserCacheInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/util/MD5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/util/RandImageUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/utils/JeekiteDataAutorUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/utils/SpringContextUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/utils/SysPermissionDataRuleModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/utils/oConvertUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/entity/DepartIdModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/entity/SysDepart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/entity/SysDepartTreeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/entity/SysLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/entity/SysPermission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/mapper/SysLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/ISysBaseAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/ISysDepartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/ISysLogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/impl/SysBaseApiImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/impl/SysDepartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/impl/SysLogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/swagger/swagger.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/util/RedisUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jeekite-system/src/main/resources/mapping/SysLogMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-common/src/main/java/com/jeekite/common/utils/CookieUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-common/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-common/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-common/target/classes/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-common/target/classes/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-gateway/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-gateway/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/Code.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/Code.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/JeekiteOnlie.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/JeekiteOnlie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/build/DaoBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/build/DaoBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/build/PojoBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/build/PojoBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysDeptController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysDictController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysDictDetailController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysGeneratorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysJobController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysJobLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysLogController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysPermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/controller/SysPermissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/controller/SysRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysRolePermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/controller/SysRolePermissionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysUserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/controller/SysUserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/SysUserRoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/controller/SysUserRoleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysDeptMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysDictDetailMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysDictMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysGeneratorMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysJobLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysJobMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysLogMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysPermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/mapper/SysPermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/mapper/SysRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysRolePermissionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/mapper/SysRolePermissionMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/SysUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/dao/UserMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysDeptFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysDictDetailFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysDictFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysGeneratorFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysJobFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysJobLogFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysLogFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysPermissionFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/feign/SysPermissionFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysRoleFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/feign/SysRoleFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysRolePermissionFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/feign/SysRolePermissionFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysUserFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/feign/SysUserFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/SysUserRoleFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/feign/SysUserRoleFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/feign/UserFeign.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/generator/CodeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/generator/CodeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysDept.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysDict.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysDictDetail.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysJobLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/entity/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysRolePermission.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/entity/SysRolePermission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/SysUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/entity/SysUserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/pojo/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysDeptService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysDictDetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysDictService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysGeneratorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysJobLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysJobService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysLogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysPermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/SysPermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysRolePermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/SysRolePermissionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysUserRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/SysUserRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysDeptServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysDictDetailServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysDictServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysGeneratorServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysJobLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysJobServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysLogServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysPermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/impl/SysPermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysRolePermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/impl/SysRolePermissionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/impl/SysRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysUserRoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/impl/SysUserRoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/SysUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/impl/SysUserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/service/impl/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-online/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/resources/template/dao/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-online/src/main/resources/template/mapper/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/resources/template/feign/Feign.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-online/src/main/resources/template/feign/Feign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/src/main/resources/template/pojo/Pojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-online/src/main/resources/template/entity/Pojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-online/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/target/classes/template/dao/Mapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/target/classes/template/feign/Feign.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-online/target/classes/template/feign/Feign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-online/target/classes/template/pojo/Pojo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/SysApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/SysApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/controller/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-system/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jeekite-system/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jeekite-system/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,7 +176,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -63,7 +206,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jeekite-online/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -76,15 +219,21 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\workspage\jeekite-pro\jeekite-system\src\main\java\com\jeekite\sys\mapper" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jeekite.sys.service" />
+      <recent name="com.jeekite.sys.util" />
+      <recent name="com.jeekite.common.result" />
+      <recent name="com.jeekite.common.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\workspage\jeekite-pro\jeekite-online\src\main\resources" />
-      <recent name="D:\workspage\jeekite-pro\jeekite-online\src\main\java\com\jeekite\online" />
+      <recent name="D:\workspage\jeekite-pro\jeekite-system\src\main\java\com\jeekite\sys" />
       <recent name="D:\workspage\jeekite-pro\jeekite-common\src\main\java\com\jeekite\common\utils" />
+      <recent name="D:\workspage\jeekite-pro\jeekite-common\src\main\java\com\jeekite\common" />
       <recent name="D:\workspage\jeekite-pro\jeekite-common\src\main\java\com\jeekite\common\result" />
-      <recent name="D:\workspage\jeekite-pro\jeekite-common\src\main\resources" />
+      <recent name="D:\workspage\jeekite-pro\jeekite-online\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Code">
+  <component name="RunManager" selected="Application.SysApplication">
     <configuration name="Code" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.jeekite.online.Code" />
       <module name="jeekite-online" />
@@ -98,12 +247,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JeekiteGenenator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.jeekite.online.genenator.JeekiteGenenator" />
-      <module name="jeekite-online" />
+    <configuration name="SysApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jeekite.sys.SysApplication" />
+      <module name="jeekite-system" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jeekite.online.genenator.*" />
+          <option name="PATTERN" value="com.jeekite.sys.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,7 +321,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.JeekiteGenenator" />
       <item itemvalue="Application.codeUtilApp" />
       <item itemvalue="Application.Code" />
       <item itemvalue="Spring Boot.JeecgApplication" />
@@ -180,14 +328,15 @@
       <item itemvalue="Spring Boot.SysApplication" />
       <item itemvalue="Spring Boot.JeekiteGateway" />
       <item itemvalue="Spring Boot.JeekiteOnlie" />
+      <item itemvalue="Application.SysApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SysApplication" />
         <item itemvalue="Application.Code" />
+        <item itemvalue="Spring Boot.JeekiteGateway" />
         <item itemvalue="Spring Boot.JeekiteOnlie" />
         <item itemvalue="Application.codeUtilApp" />
-        <item itemvalue="Application.JeekiteGenenator" />
-        <item itemvalue="Spring Boot.JeekiteGateway" />
       </list>
     </recent_temporary>
   </component>
@@ -217,6 +366,8 @@
       <workItem from="1590971590571" duration="605000" />
       <workItem from="1590972238798" duration="8093000" />
       <workItem from="1590993365450" duration="3922000" />
+      <workItem from="1591323528118" duration="720000" />
+      <workItem from="1591324551232" duration="17611000" />
     </task>
     <servers />
   </component>
@@ -225,6 +376,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="74" key="#Inspections" timestamp="1589766266408">
@@ -239,103 +393,98 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="223" y="70" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1589773609781" />
-    <state x="513" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590022042097">
+    <state x="513" y="221" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591345771587">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="513" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1590022042097" />
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1590024414755">
+    <state x="513" y="221" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1591345771587" />
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser" timestamp="1591348521761">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1590024414755" />
-    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1590994739765">
+    <state x="574" y="105" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1591348521761" />
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1591347077559">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1590994739765" />
-    <state width="467" height="466" key="DebuggerActiveHint" timestamp="1590975403853">
+    <state x="499" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1591347077559" />
+    <state width="467" height="466" key="DebuggerActiveHint" timestamp="1591349195727">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="467" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1590975403853" />
-    <state x="548" y="165" key="FileChooserDialogImpl" timestamp="1590368484835">
+    <state width="467" height="466" key="DebuggerActiveHint/0.0.1536.824@0.0.1536.824" timestamp="1591349195727" />
+    <state x="548" y="165" key="FileChooserDialogImpl" timestamp="1591324863950">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="548" y="165" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590368484835" />
-    <state width="1493" height="276" key="GridCell.Tab.0.bottom" timestamp="1590995763557">
+    <state x="548" y="165" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591324863950" />
+    <state width="1493" height="249" key="GridCell.Tab.0.bottom" timestamp="1591350410032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590995763557" />
-    <state width="1493" height="276" key="GridCell.Tab.0.center" timestamp="1590995763557">
+    <state width="1493" height="249" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591350410032" />
+    <state width="1493" height="249" key="GridCell.Tab.0.center" timestamp="1591350410032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1590995763557" />
-    <state width="1493" height="276" key="GridCell.Tab.0.left" timestamp="1590995763557">
+    <state width="1493" height="249" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1591350410032" />
+    <state width="1493" height="249" key="GridCell.Tab.0.left" timestamp="1591350410032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1590995763557" />
-    <state width="1493" height="276" key="GridCell.Tab.0.right" timestamp="1590995763557">
+    <state width="1493" height="249" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1591350410032" />
+    <state width="1493" height="249" key="GridCell.Tab.0.right" timestamp="1591350410032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1590995763557" />
-    <state width="1493" height="276" key="GridCell.Tab.1.bottom" timestamp="1590995755079">
+    <state width="1493" height="249" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1591350410032" />
+    <state width="1493" height="249" key="GridCell.Tab.1.bottom" timestamp="1591350410032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590995755079" />
-    <state width="1493" height="276" key="GridCell.Tab.1.center" timestamp="1590995755079">
+    <state width="1493" height="249" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591350410032" />
+    <state width="1493" height="249" key="GridCell.Tab.1.center" timestamp="1591350410032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1590995755079" />
-    <state width="1493" height="276" key="GridCell.Tab.1.left" timestamp="1590995755079">
+    <state width="1493" height="249" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1591350410032" />
+    <state width="1493" height="249" key="GridCell.Tab.1.left" timestamp="1591350410032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1590995755079" />
-    <state width="1493" height="276" key="GridCell.Tab.1.right" timestamp="1590995755079">
+    <state width="1493" height="249" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1591350410032" />
+    <state width="1493" height="249" key="GridCell.Tab.1.right" timestamp="1591350410032">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1590995755079" />
-    <state width="1493" height="276" key="GridCell.Tab.2.bottom" timestamp="1590995754471">
+    <state width="1493" height="249" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1591350410032" />
+    <state width="1493" height="241" key="GridCell.Tab.2.bottom" timestamp="1591339787362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1590995754471" />
-    <state width="1493" height="276" key="GridCell.Tab.2.center" timestamp="1590995754471">
+    <state width="1493" height="241" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1591339787362" />
+    <state width="1493" height="241" key="GridCell.Tab.2.center" timestamp="1591339787362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1590995754471" />
-    <state width="1493" height="276" key="GridCell.Tab.2.left" timestamp="1590995754471">
+    <state width="1493" height="241" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1591339787362" />
+    <state width="1493" height="241" key="GridCell.Tab.2.left" timestamp="1591339787362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1590995754471" />
-    <state width="1493" height="276" key="GridCell.Tab.2.right" timestamp="1590995754471">
+    <state width="1493" height="241" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1591339787362" />
+    <state width="1493" height="241" key="GridCell.Tab.2.right" timestamp="1591339787362">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="276" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1590995754471" />
-    <state x="279" y="66" key="SettingsEditor" timestamp="1590367279215">
+    <state width="1493" height="241" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1591339787362" />
+    <state x="279" y="66" key="SettingsEditor" timestamp="1591323694160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="279" y="66" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1590367279215" />
+    <state x="279" y="66" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1591323694160" />
     <state x="565" y="193" key="chooseDestDirectoryDialog" timestamp="1590994227282">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="565" y="193" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1590994227282" />
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1590993454607">
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1591324550499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1590993454607" />
+    <state x="461" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591324550499" />
     <state x="209" y="57" key="new project wizard" timestamp="1589618640186">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="209" y="57" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1589618640186" />
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1590975438128">
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1591347227570">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1590975438128" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591347227570" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/build/TemplateBuilder.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/genenator/codeUtilApp.java</url>
           <line>6</line>
@@ -343,23 +492,33 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>jar://D:/Program Files/Java/jdk1.8.0_241/src.zip!/java/sql/DriverManager.java</url>
-          <line>237</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Program Files/Java/jdk1.8.0_241/src.zip!/java/sql/DriverManager.java</url>
           <line>632</line>
           <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Program Files/Java/jdk1.8.0_241/src.zip!/java/sql/DriverManager.java</url>
-          <line>639</line>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/jeekite-online/src/main/java/com/jeekite/online/build/TemplateBuilder.java</url>
           <line>168</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/controller/SysUserController.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/service/impl/SysUserServiceImpl.java</url>
+          <line>244</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/controller/SysUserController.java</url>
+          <line>311</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/jeekite-system/src/main/java/com/jeekite/sys/controller/SysUserController.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

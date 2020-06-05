@@ -1,7 +1,7 @@
 package com.jeekite.online.feign;
 import com.github.pagehelper.PageInfo;
 import com.jeekite.common.result.Result;
-import com.jeekite.online.pojo.${Table};
+import com.jeekite.sys.entity.${Table};
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.*;
 

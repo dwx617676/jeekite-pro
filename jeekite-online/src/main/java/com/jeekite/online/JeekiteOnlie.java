@@ -8,7 +8,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @EnableEurekaClient
 @SpringBootApplication
-@MapperScan("com.jeekite.online.dao")
+@MapperScan("com.jeekite.online.mapper")
 @EnableSwagger2
 public class JeekiteOnlie {
     public static void main(String[] args) {

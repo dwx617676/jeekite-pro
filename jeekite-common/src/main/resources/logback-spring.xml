@@ -151,17 +151,17 @@
         </filter>
     </appender>
 
-    <!-- <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
-         &lt;!&ndash;encoder 默认配置为PatternLayoutEncoder&ndash;&gt;
+   <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+         <!--encoder 默认配置为PatternLayoutEncoder-->
          <encoder>
              <pattern>===%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger Line:%-3L - %msg%n</pattern>
              <charset>utf-8</charset>
          </encoder>
-         &lt;!&ndash;此日志appender是为开发使用，只配置最底级别，控制台输出的日志级别是大于或等于此级别的日志信息&ndash;&gt;
+         <!--此日志appender是为开发使用，只配置最底级别，控制台输出的日志级别是大于或等于此级别的日志信息-->
          <filter class="ch.qos.logback.classic.filter.ThresholdFilter">
              <level>debug</level>
          </filter>
-     </appender>-->
+     </appender>
 
     <!-- show parameters for hibernate sql 专为 Hibernate 定制 -->
     <!-- <logger name="org.hibernate.type.descriptor.sql.BasicBinder"  level="TRACE" />
@@ -197,33 +197,33 @@
         <appender-ref ref="CONSOLE" />
     </root>
 
-    <!-- 环境配置 -->
-    <!--   <springProfile name="test,dev">
-           <logger name="org.springframework.web" level="INFO"/>
-           <logger name="org.springboot.sample" level="INFO" />
-           <logger name="com.kfit" level="info" />
-       </springProfile>-->
-    <!-- 生产环境. -->
-    <!--  <springProfile name="prod">
-          <logger name="org.springframework.web" level="ERROR"/>
-          <logger name="org.springboot.sample" level="ERROR" />
-          <logger name="com.kfit" level="ERROR" />
-      </springProfile>-->
+<!--    &lt;!&ndash; 环境配置 &ndash;&gt;-->
+<!--    <springProfile name="test,dev">-->
+<!--           <logger name="org.springframework.web" level="INFO"/>-->
+<!--           <logger name="org.springboot.sample" level="INFO" />-->
+<!--           <logger name="com.jeekite" level="info" />-->
+<!--       </springProfile>-->
+<!--    &lt;!&ndash; 生产环境. &ndash;&gt;-->
+<!--    &lt;!&ndash;  <springProfile name="prod">-->
+<!--          <logger name="org.springframework.web" level="ERROR"/>-->
+<!--          <logger name="org.springboot.sample" level="ERROR" />-->
+<!--          <logger name="com.kfit" level="ERROR" />-->
+<!--      </springProfile>&ndash;&gt;-->
 
-    <!--日志异步到数据库 -->
-    <!-- <appender name="DB" class="ch.qos.logback.classic.db.DBAppender">
-        日志异步到数据库
-        <connectionSource class="ch.qos.logback.core.db.DriverManagerConnectionSource">
-           连接池
-           <dataSource class="com.mchange.v2.c3p0.ComboPooledDataSource">
-              <driverClass>com.mysql.jdbc.Driver</driverClass>
-              <url>jdbc:mysql://127.0.0.1:3306/databaseName</url>
-              <user>root</user>
-              <password>root</password>
-            </dataSource>
-        </connectionSource>
-  </appender> -->
+<!--    &lt;!&ndash;日志异步到数据库 &ndash;&gt;-->
+<!--    &lt;!&ndash; <appender name="DB" class="ch.qos.logback.classic.db.DBAppender">-->
+<!--        日志异步到数据库-->
+<!--        <connectionSource class="ch.qos.logback.core.db.DriverManagerConnectionSource">-->
+<!--           连接池-->
+<!--           <dataSource class="com.mchange.v2.c3p0.ComboPooledDataSource">-->
+<!--              <driverClass>com.mysql.jdbc.Driver</driverClass>-->
+<!--              <url>jdbc:mysql://127.0.0.1:3306/databaseName</url>-->
+<!--              <user>root</user>-->
+<!--              <password>root</password>-->
+<!--            </dataSource>-->
+<!--        </connectionSource>-->
+<!--  </appender> &ndash;&gt;-->
 
-    <!-- 测试环境+开发环境. 多个使用逗号隔开. -->
+<!--    &lt;!&ndash; 测试环境+开发环境. 多个使用逗号隔开. &ndash;&gt;-->
 
 </configuration>
